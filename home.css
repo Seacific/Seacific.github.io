@@ -197,6 +197,7 @@
   width: 539px;
   height: 298px;
   align-self: center;
+  margin-top: 1em;
 }
 .home-container06 {
   width: auto;
@@ -789,6 +790,7 @@
   .home-container11 {
     align-self: center;
     padding-left: 0px;
+    justify-content: center;
   }
   .home-image06 {
     align-self: center;
