@@ -175,11 +175,13 @@
   width: 658px;
   height: 271px;
   display: flex;
+  align-self: center;
   margin-top: 2em;
   align-items: flex-start;
+  justify-content: center;
 }
 .contact-us-div1 {
-  width: 601px;
+  width: 311px;
   height: 260px;
 }
 .contact-us-separator {
