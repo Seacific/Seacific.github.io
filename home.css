@@ -699,6 +699,12 @@
   .home-container09 {
     display: none;
   }
+  .home-container26 {
+    width: 50%;
+  }
+  .home-text35 {
+    width: 70%;
+  }
   .home-code-embed {
     width: 329px;
   }
