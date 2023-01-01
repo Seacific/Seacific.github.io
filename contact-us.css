@@ -88,10 +88,16 @@
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
+.contact-us-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .contact-us-burger-menu {
   display: none;
 }
-.contact-us-icon02 {
+.contact-us-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: none;
@@ -129,14 +135,9 @@
   align-items: center;
   justify-content: center;
 }
-.contact-us-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .contact-us-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
 }
 .contact-us-icon08 {
   width: var(--dl-size-size-xsmall);
@@ -144,6 +145,11 @@
   margin-right: var(--dl-space-space-twounits);
 }
 .contact-us-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.contact-us-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -164,7 +170,7 @@
   color: #ffffff;
   margin-top: 0em;
 }
-.contact-us-link1 {
+.contact-us-link2 {
   margin-top: 2em;
   text-decoration: none;
 }
@@ -278,7 +284,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.contact-us-link2 {
+.contact-us-link3 {
   text-decoration: none;
 }
 .contact-us-socials {
@@ -297,16 +303,28 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-us-link3 {
+.contact-us-link4 {
   display: contents;
 }
-.contact-us-icon12 {
+.contact-us-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
+.contact-us-link5 {
+  display: contents;
+}
+.contact-us-icon16 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .contact-us-icon02 {
+    margin-left: 1em;
+  }
+  .contact-us-icon04 {
     display: flex;
   }
   .contact-us-footer {
@@ -320,6 +338,9 @@
   }
   .contact-us-text3 {
     font-weight: 700;
+  }
+  .contact-us-icon16 {
+    margin-left: 1em;
   }
 }
 @media(max-width: 767px) {

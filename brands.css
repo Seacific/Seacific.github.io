@@ -88,10 +88,16 @@
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
+.brands-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .brands-burger-menu {
   display: none;
 }
-.brands-icon02 {
+.brands-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: none;
@@ -129,14 +135,9 @@
   align-items: center;
   justify-content: center;
 }
-.brands-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .brands-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
 }
 .brands-icon08 {
   width: var(--dl-size-size-xsmall);
@@ -144,6 +145,11 @@
   margin-right: var(--dl-space-space-twounits);
 }
 .brands-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.brands-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -346,7 +352,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.brands-link1 {
+.brands-link2 {
   text-decoration: none;
 }
 .brands-socials {
@@ -359,22 +365,42 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
+.brands-container8 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .brands-icon-group2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.brands-link2 {
+.brands-link3 {
   display: contents;
 }
-.brands-icon12 {
+.brands-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
+.brands-link4 {
+  display: contents;
+}
+.brands-icon16 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .brands-icon02 {
+    margin-left: 1em;
+  }
+  .brands-icon04 {
     display: flex;
   }
   .brands-footer {
@@ -388,6 +414,9 @@
   }
   .brands-text29 {
     font-weight: 700;
+  }
+  .brands-icon16 {
+    margin-left: 1em;
   }
 }
 @media(max-width: 767px) {
