@@ -83,6 +83,17 @@
 .contact-us-nav {
   display: flex;
 }
+.contact-us-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: none;
+  align-items: space-between;
+  flex-direction: column;
+}
+.contact-us-link {
+  text-decoration: none;
+}
 .contact-us-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
@@ -120,7 +131,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-us-container1 {
+.contact-us-container2 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -157,7 +168,7 @@
   width: 100%;
   object-fit: cover;
 }
-.contact-us-container2 {
+.contact-us-container3 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -170,14 +181,14 @@
   color: #ffffff;
   margin-top: 0em;
 }
-.contact-us-link2 {
+.contact-us-link3 {
   margin-top: 2em;
   text-decoration: none;
 }
 .contact-us-text1 {
   margin-top: 1em;
 }
-.contact-us-container3 {
+.contact-us-container4 {
   width: 658px;
   height: 271px;
   display: flex;
@@ -211,7 +222,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.contact-us-container4 {
+.contact-us-container5 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -237,7 +248,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-us-container5 {
+.contact-us-container6 {
   display: flex;
   align-items: flex-start;
   margin-right: 10rem;
@@ -267,7 +278,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-us-container6 {
+.contact-us-container7 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -284,7 +295,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.contact-us-link3 {
+.contact-us-link4 {
   text-decoration: none;
 }
 .contact-us-socials {
@@ -303,7 +314,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-us-link4 {
+.contact-us-link5 {
   display: contents;
 }
 .contact-us-icon14 {
@@ -311,7 +322,7 @@
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
-.contact-us-link5 {
+.contact-us-link6 {
   display: contents;
 }
 .contact-us-icon16 {
@@ -321,6 +332,9 @@
   text-decoration: none;
 }
 @media(max-width: 991px) {
+  .contact-us-container1 {
+    display: none;
+  }
   .contact-us-icon02 {
     margin-left: 1em;
   }
@@ -330,7 +344,7 @@
   .contact-us-footer {
     flex-direction: column;
   }
-  .contact-us-container5 {
+  .contact-us-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
   .contact-us-product-container {
@@ -360,7 +374,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .contact-us-container4 {
+  .contact-us-container5 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -379,7 +393,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .contact-us-container5 {
+  .contact-us-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
   .contact-us-product-container {
@@ -398,6 +412,9 @@
     width: auto;
     height: 58px;
   }
+  .contact-us-container1 {
+    display: flex;
+  }
   .contact-us-icon-group {
     display: none;
   }
@@ -405,24 +422,34 @@
     padding: 16px;
   }
   .contact-us-footer {
+    height: 618px;
     padding: var(--dl-space-space-unit);
   }
-  .contact-us-container4 {
+  .contact-us-container5 {
+    height: 581px;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
   }
+  .contact-us-image3 {
+    width: 231px;
+    height: 216px;
+  }
   .contact-us-text2 {
+    font-style: normal;
     margin-top: var(--dl-space-space-twounits);
+    font-family: Inter;
+    font-weight: bold;
     margin-bottom: var(--dl-space-space-twounits);
   }
   .contact-us-links-container {
     align-items: center;
     flex-direction: column;
   }
-  .contact-us-container5 {
+  .contact-us-container6 {
     margin-right: 0px;
   }
-  .contact-us-container6 {
+  .contact-us-container7 {
     margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: flex-start;
     margin-bottom: 0px;
